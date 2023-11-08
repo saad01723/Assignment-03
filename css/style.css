@@ -57,6 +57,7 @@
     font-weight: 600;
     background: #FFF;
     cursor: pointer;
+    
 }
 
 /*<<<<<<< banner section start >>>>>>>>>*/
@@ -108,39 +109,130 @@
 .header-right-btn {
     background:#289BDE;
     color: #FFF;
+    border: none;
 
 }
 .banner-right{
     padding-right: 50px;
 }
-/* new popular right section */
-/* #popular-courses{
+
+
+/* popular courses  */
+
+#popular-courses{
     margin-top: 130px;
 }
-.popular-courses-main{
-    justify-content: center;
-}
-.popular-cources-h1{
+.popular-courses-text-h1{
     width: 549px;
-    height: 120px;
-    align-items: center;
+    margin: 0 auto;
 }
-.popular-cources-h1 h1{
-    font-family: 'Poppins', sans-serif;
-    color:  #1D1D1D;
+.popular-courses-text-h1 h1{
+    color: #1D1D1D;
     text-align: center;
     font-size: 45px;
+    font-weight: 600;
+    line-height: 60px; 
+}
+.popular-courses-text-p{
+    width: 606px;
+    height: 60px;
+    margin: 0 auto;
+}
+.popular-courses-text-p p{
+    color: var(--Dark-03, #777);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+/* popular Card section  */
+#popular-courses-card{
+    margin-top: 50px;
+}
+.popular-courses-main-card{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 24px;
+}
+
+.popular-card{
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+
+
+    width: 648px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.popular-card-img{
+    width: 200px;
+    height: 200px;
+}
+.popular-card-right{
+    width: 397px;
+    height: 133px;
+    align-items: center;
+    margin: 34px 27px;
+}
+.popilar-card-right-h2 h2{
+    color:  #4A4A4A;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    text-align: center;
-    align-items: center;
+    line-height: normal;
 }
-.popular-courses-p p{
+
+.popular-card-right-p p{
+    color: #777;
     font-size: 16px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.popular-card-right-prize h2{
+    color: #289BDE;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.popular-card-btn{
+    margin-top: 50px;
+    height: 56px;
+    width: 248px;
+    margin: 0 auto;
+}
+
+.new-card-btn{
+    text-align: left;
+}
+.new-card-btn-b{
+    color: #FFF;
     text-align: center;
-} */
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 33px;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) and (min-width: 300px) {
     .conteinar{
@@ -181,14 +273,11 @@
         margin-top: 20px;
         padding: 8px 15px;
     }
-     #banner{
-        margin-left: 20px;
-
-     }
     .main-banner{
-        width:335px ;
+        width: 280px; 
         height:262px;
         padding: 39px 0px;
+        margin: 0 auto;
     }
     .dtails{
         display: flex;
@@ -210,6 +299,7 @@
     }
 
     .banner-dtails-p{
+       
         width: 274px;
         height: 54px;
         padding-top: 10px;
@@ -219,6 +309,7 @@
     .banner-dtails-p p{
         font-size: 12px;
         line-height:normal;
+        font-weight: 600;
     }
 
     .header-dtails-button{
@@ -228,25 +319,95 @@
         display:none;
     }
 
+    #popular-courses{
+        margin-top: 32px;
+    }
+    .popular-courses-text-h1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .popular-courses-text-h1 h1{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 0; 
+    }
+    .popular-courses-text-p{
+        width: 295px;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .popular-courses-text-p p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        line-height:normal; 
+    }
 
+    #popular-courses-card{
+        margin-top:17px;
+        margin: 10px;
+    }
 
+    .popular-courses-main-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
 
-/* 
-.popular-cources-h1 h1{
-    font-size: 18px;
-    font-weight: 600;
-}
+    .popular-card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .new-card{
+        display: none;
+    }
+    .popular-card-img{
+        width: 100%;
+        height:100%;
+    }
+    .popular-card-right{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 20px;
+        align-items: center;
+    }
 
-.popular-courses-p p{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-}
+    .popilar-card-right-h2 h2{
+        font-size: 16px;
+    }
+    .popular-card-right-p p{
+        color: #777;
+        font-size: 12px;
+        font-weight: 300;
+        padding-top: 10px;
+    }
 
-#popular-courses{
-margin-top: 20px;
-} */
+    .popular-card-btn{
+        display: none;
+    }
+
+    .new-card-btn{
+        text-align: center;
+        padding-top: 24px;
+    }
+    .new-card-btn-b{
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        padding: 13px 33px;
+        background-color: #289BDE;
+        border: none;
+        border-radius: 5px;
+        }
 
 
 }
