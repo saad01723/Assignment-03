@@ -443,6 +443,87 @@ line-height: 30px;
     padding-left: 20px;
 }
 
+/* some student section start */
+.some-student{
+    padding-top: 130px;
+}
+.some-student-h1 h1{
+    color:  #1D1D1D;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; 
+}
+.some-student-p{
+    height: 60px;
+    width: 606px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.some-student-p p{
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+/* student feadback start */
+
+.all-feadback{
+    display: flex;
+    justify-content: space-between;
+}
+.Box-border{
+     width: 648px;
+    height: 325px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    margin-top: 50px; 
+}
+.main-icon-one{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 646px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.student-feedback-pg{
+    width: 568px;
+    height: 120px;
+    padding-left: 50px;
+}
+.student-feedback-pg p{
+    color:  #777;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;   
+}
+
+.left-bottom-flex{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.left-bottom-l{
+    padding-top:8px ;
+    padding-left: 10px;
+}
+.left-bottom-r{
+    padding-left: 30px;
+}
+.left-bottom-r p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 
 
@@ -731,24 +812,70 @@ line-height: 30px;
 
         .student-all-card{
             margin-top: 40px;
+            margin-left:5px;
         }
         .student-card-flex{
             display: flex;
             flex-direction: column;
+            gap: 20px;
         }
         
+        .some-student{
+            padding-top: 40px;
+        }
+        .some-student-h1{
+            width: 222px;
+            margin-left: 40px;
+        }
+        .some-student-h1 h1{
+            font-size: 20px;
+            line-height:normal; 
+        }
         
+        .some-student-p{
+            width: 290px;
+            text-align: center;
+            padding-top: 10px;
+        }
 
+        .some-student-p p{
+            color: #777;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px; 
+        }
+        .all-feadback{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 5px;
+        }
+        .Box-border{
+            width:100%;
+           height: 100%;
+           margin-top: 50px; 
+       }
+       .main-icon-one{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
         
-
-
-
-
-
-
-
-}
-
+        }
+        .student-feedback-pg{
+            width: 100%;
+            height: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: justify;
+        }
+        .left-bottom-r p{
+            color: #777;
+            font-size: 12px;
+        }
 
 
 
